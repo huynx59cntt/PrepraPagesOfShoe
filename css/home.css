@@ -13,7 +13,7 @@
    
 }
 .container-background{
-    background-image: url(/images/background-home.jpg);
+    background-image: url(../images/background-home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px 0px 0px 10px;
