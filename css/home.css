@@ -1,0 +1,38 @@
+*{
+    box-sizing: inherit;
+}
+
+.limiter{
+    background-color: #652036;
+    width: 100vw;
+    height: 100%;
+}
+.row{
+    height: 100vh;
+    padding: 10px 0px;
+   
+}
+.container-background{
+    background-image: url(/images/background-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 0px 10px;
+   
+}
+.container-form{
+    background-color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 20px 20px 0px rgba(0,0,0,0.1)
+}
+.container-form-container{
+    padding-top:150px;
+}
+.form-control{
+    width: 90%;
+} 
+
+@media screen and (max-width:740px){
+    .container-background{
+        height: 430px;
+    }
+}

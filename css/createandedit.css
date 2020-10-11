@@ -1,0 +1,43 @@
+.limiter{
+    background-color: #652036;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: -30px;
+}
+.container-background{
+    background-image: url(../images/pic8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 0px rgba(0,0,0,0.1)
+}
+.container-createProduct{
+    border-radius: 10px;
+    border: 1px solid   #652036;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 65%;
+    padding: 39px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto auto;
+}
+.container-sign{
+    color: #652036;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.container-form{
+    border-top-color: peru;
+}
+.form-control1 .formcontrol{
+    width: 50%;
+    display: inline;
+} 
+a button{
+    margin-top: 10px;
+    width: 120px;
+}
